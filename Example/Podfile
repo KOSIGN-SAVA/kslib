@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KosignLib_Example' do
+  pod 'KosignLib', :path => '../'
+
+  target 'KosignLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
