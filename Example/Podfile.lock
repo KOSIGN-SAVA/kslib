@@ -1,0 +1,16 @@
+PODS:
+  - KosignLib (0.1.0)
+
+DEPENDENCIES:
+  - KosignLib (from `../`)
+
+EXTERNAL SOURCES:
+  KosignLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KosignLib: 699e2121b4771b92e600e972ca40aeac8a365d68
+
+PODFILE CHECKSUM: 4d0750facf1d1623aae51a21c9994e8c0b277238
+
+COCOAPODS: 1.5.3

@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import KosignLib
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let myAdd = Kosign.Add(v1: 2, v2: 3)
+        print("add: ", myAdd)
+        
     }
 
     override func didReceiveMemoryWarning() {

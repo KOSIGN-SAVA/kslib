@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E4E163B4BA76B637AFC4A2DB39AB848 /* Pods-KosignLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A65674FC67AB50AC2838EF93CC8E38A /* Pods-KosignLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279F758B95C07EDB4F5437B3EB332605 /* Pods-KosignLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8080ECAEC1B7E012481927437F3414 /* Pods-KosignLib_Tests-dummy.m */; };
+		399ED88B2133E6790005A2D3 /* Kosign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399ED88A2133E6780005A2D3 /* Kosign.swift */; };
+		39A9F9FF04327A899F3E9AB5576EF49F /* KosignLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69866A4A2F9A2963C767C34646B702C1 /* KosignLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97C8650D9C7B9ED16CAA2D42D1539B00 /* KosignLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7800F83707068303BA986E0B74E255E /* KosignLib-dummy.m */; };
+		9B56C8D79C113567E76A237C670B88AB /* Pods-KosignLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADE3625A69340A0D8378588D13DF793 /* Pods-KosignLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A532AE3832264DC0767C2DB59CA8E6CF /* Pods-KosignLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F0A939505BE39A82F1F1ADFA35659 /* Pods-KosignLib_Example-dummy.m */; };
+		BFE9BCF283EF582490251534DBFBFA16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D7A125E794A50BF8A7AEC0D65348444D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DE65C18E3F36867575A62E77A7E32BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43D2472B1A4C15082A3A93CA811498E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC5FE5A5E1559F1F4F0FE21F5AC6116;
+			remoteInfo = "Pods-KosignLib_Example";
+		};
+		867D56E8F545B3A1509622388D158B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E2626806A32EAA8D2839B7491B6F83;
+			remoteInfo = KosignLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E901958F4FCEAD134D7325A4416FBEE /* KosignLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KosignLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E0B61C1E4707D786FFEFCEA5105982 /* KosignLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KosignLib-prefix.pch"; sourceTree = "<group>"; };
+		1B8080ECAEC1B7E012481927437F3414 /* Pods-KosignLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KosignLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		1CE40EBC6AF686F1A2326760CAE61563 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AF9C6F85A4C978F08D4AF817890513 /* Pods-KosignLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignLib_Example-resources.sh"; sourceTree = "<group>"; };
+		2ADE3625A69340A0D8378588D13DF793 /* Pods-KosignLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KosignLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2F9F0A939505BE39A82F1F1ADFA35659 /* Pods-KosignLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KosignLib_Example-dummy.m"; sourceTree = "<group>"; };
+		340109E773BD14CC3D999005F0539397 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		36A9788D667D7C91B4E0C00ACF00F588 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399ED88A2133E6780005A2D3 /* Kosign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Kosign.swift; path = KosignLib/Classes/Kosign.swift; sourceTree = "<group>"; };
+		3EA133DD3268379816D01DF5FE55BEB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3ED1C2DDC41E0362CFB37A5F093D4452 /* KosignLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KosignLib.modulemap; sourceTree = "<group>"; };
+		4A872790D765E7919195C703BC169137 /* Pods-KosignLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		4DF1965F9F10382CD653A56D16018650 /* Pods-KosignLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KosignLib_Tests.modulemap"; sourceTree = "<group>"; };
+		54968F64C3267685464D8BC27E813C30 /* Pods-KosignLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KosignLib_Example.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6558E9218447A616387D9B559BE19B2B /* Pods-KosignLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		66802DB488D8F9EA473BBFC471873B76 /* Pods-KosignLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		69866A4A2F9A2963C767C34646B702C1 /* KosignLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KosignLib-umbrella.h"; sourceTree = "<group>"; };
+		6A32BA92BB808785052FD4D860087250 /* Pods_KosignLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KosignLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C322C5416FD60746105D523C1331C0 /* KosignLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KosignLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A65674FC67AB50AC2838EF93CC8E38A /* Pods-KosignLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KosignLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		A1AA61328EC673D830D7366D929B604B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7800F83707068303BA986E0B74E255E /* KosignLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KosignLib-dummy.m"; sourceTree = "<group>"; };
+		B5E1ED544637F4742ED260FBF302E7CB /* Pods-KosignLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C41373663248C300EA9B468DF4A1D3CC /* Pods-KosignLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KosignLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C68A1BBDEAFBC3E71811540325DBF478 /* Pods_KosignLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KosignLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF0B4F21E80558886454AD7EB054DE7 /* Pods-KosignLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DAF7A59269269F0BE0E570E51D8149A8 /* KosignLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KosignLib.xcconfig; sourceTree = "<group>"; };
+		DF3AB8394DFDC29F4E38DCB2A5596BE8 /* Pods-KosignLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KosignLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E27122B1700EF56F6AAA556E94937990 /* Pods-KosignLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KosignLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFA5396607E99257174DBC6BC407F994 /* Pods-KosignLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KosignLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1C7F6C2A25CE075A143D507551BF876 /* Pods-KosignLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KosignLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F735238FDD9C5F61736D864C6EEBBFF8 /* Pods-KosignLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KosignLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C24BD3D32F3C436931A4F0DA909347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A125E794A50BF8A7AEC0D65348444D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1219113FB395206CE81E363CCA2713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE65C18E3F36867575A62E77A7E32BBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16237DE07CE14FC4AC8E5F9DCC88BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE9BCF283EF582490251534DBFBFA16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44AC4693A0A0A0B9F45F7DC02CBEA936 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				94C322C5416FD60746105D523C1331C0 /* KosignLib.podspec */,
+				340109E773BD14CC3D999005F0539397 /* LICENSE */,
+				3EA133DD3268379816D01DF5FE55BEB3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BA61996FCECA9915C710993411BE884 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CE40EBC6AF686F1A2326760CAE61563 /* Info.plist */,
+				3ED1C2DDC41E0362CFB37A5F093D4452 /* KosignLib.modulemap */,
+				DAF7A59269269F0BE0E570E51D8149A8 /* KosignLib.xcconfig */,
+				A7800F83707068303BA986E0B74E255E /* KosignLib-dummy.m */,
+				12E0B61C1E4707D786FFEFCEA5105982 /* KosignLib-prefix.pch */,
+				69866A4A2F9A2963C767C34646B702C1 /* KosignLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KosignLib";
+			sourceTree = "<group>";
+		};
+		7CA47C4F668A0634193AB78DAA64AD21 /* Pods-KosignLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				36A9788D667D7C91B4E0C00ACF00F588 /* Info.plist */,
+				4DF1965F9F10382CD653A56D16018650 /* Pods-KosignLib_Tests.modulemap */,
+				EFA5396607E99257174DBC6BC407F994 /* Pods-KosignLib_Tests-acknowledgements.markdown */,
+				C41373663248C300EA9B468DF4A1D3CC /* Pods-KosignLib_Tests-acknowledgements.plist */,
+				1B8080ECAEC1B7E012481927437F3414 /* Pods-KosignLib_Tests-dummy.m */,
+				66802DB488D8F9EA473BBFC471873B76 /* Pods-KosignLib_Tests-frameworks.sh */,
+				4A872790D765E7919195C703BC169137 /* Pods-KosignLib_Tests-resources.sh */,
+				2ADE3625A69340A0D8378588D13DF793 /* Pods-KosignLib_Tests-umbrella.h */,
+				B5E1ED544637F4742ED260FBF302E7CB /* Pods-KosignLib_Tests.debug.xcconfig */,
+				DAF0B4F21E80558886454AD7EB054DE7 /* Pods-KosignLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-KosignLib_Tests";
+			path = "Target Support Files/Pods-KosignLib_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				92A69D25DBA240CD6C8B6DC7BBFD9C7C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				81689A8723EDF5C3D2D0008BB27A5DA6 /* Products */,
+				94AAEB9E9A739D61226E717311E9174C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81689A8723EDF5C3D2D0008BB27A5DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E901958F4FCEAD134D7325A4416FBEE /* KosignLib.framework */,
+				C68A1BBDEAFBC3E71811540325DBF478 /* Pods_KosignLib_Example.framework */,
+				6A32BA92BB808785052FD4D860087250 /* Pods_KosignLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A69D25DBA240CD6C8B6DC7BBFD9C7C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C04484E246900A26AA3AF72EA9D5B816 /* KosignLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		94AAEB9E9A739D61226E717311E9174C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AB444AAB698554A237B03D055569ADB /* Pods-KosignLib_Example */,
+				7CA47C4F668A0634193AB78DAA64AD21 /* Pods-KosignLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9AB444AAB698554A237B03D055569ADB /* Pods-KosignLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A1AA61328EC673D830D7366D929B604B /* Info.plist */,
+				54968F64C3267685464D8BC27E813C30 /* Pods-KosignLib_Example.modulemap */,
+				E27122B1700EF56F6AAA556E94937990 /* Pods-KosignLib_Example-acknowledgements.markdown */,
+				F1C7F6C2A25CE075A143D507551BF876 /* Pods-KosignLib_Example-acknowledgements.plist */,
+				2F9F0A939505BE39A82F1F1ADFA35659 /* Pods-KosignLib_Example-dummy.m */,
+				DF3AB8394DFDC29F4E38DCB2A5596BE8 /* Pods-KosignLib_Example-frameworks.sh */,
+				29AF9C6F85A4C978F08D4AF817890513 /* Pods-KosignLib_Example-resources.sh */,
+				9A65674FC67AB50AC2838EF93CC8E38A /* Pods-KosignLib_Example-umbrella.h */,
+				F735238FDD9C5F61736D864C6EEBBFF8 /* Pods-KosignLib_Example.debug.xcconfig */,
+				6558E9218447A616387D9B559BE19B2B /* Pods-KosignLib_Example.release.xcconfig */,
+			);
+			name = "Pods-KosignLib_Example";
+			path = "Target Support Files/Pods-KosignLib_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C04484E246900A26AA3AF72EA9D5B816 /* KosignLib */ = {
+			isa = PBXGroup;
+			children = (
+				399ED88A2133E6780005A2D3 /* Kosign.swift */,
+				44AC4693A0A0A0B9F45F7DC02CBEA936 /* Pod */,
+				7BA61996FCECA9915C710993411BE884 /* Support Files */,
+			);
+			name = KosignLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		059330A6AF975ED81177F0C06BB83033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4E163B4BA76B637AFC4A2DB39AB848 /* Pods-KosignLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F13514A7C93AB0F0A23E85B9B871BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A9F9FF04327A899F3E9AB5576EF49F /* KosignLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B96757E3B01127BD8EBBC500C5B3DC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B56C8D79C113567E76A237C670B88AB /* Pods-KosignLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9FC5FE5A5E1559F1F4F0FE21F5AC6116 /* Pods-KosignLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F14BADC7366367E0F4884450C86B6A /* Build configuration list for PBXNativeTarget "Pods-KosignLib_Example" */;
+			buildPhases = (
+				60BC33EF505EE0E08D250022520323AB /* Sources */,
+				AF1219113FB395206CE81E363CCA2713 /* Frameworks */,
+				059330A6AF975ED81177F0C06BB83033 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D411A5B54868190AED93F64474554602 /* PBXTargetDependency */,
+			);
+			name = "Pods-KosignLib_Example";
+			productName = "Pods-KosignLib_Example";
+			productReference = C68A1BBDEAFBC3E71811540325DBF478 /* Pods_KosignLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEAE2E9402EE7FA50DC640098F99B070 /* Pods-KosignLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2CF9D987E4662D3337CC21127E56EB /* Build configuration list for PBXNativeTarget "Pods-KosignLib_Tests" */;
+			buildPhases = (
+				306AE5EB0B71A42BEE2A38068508E2A4 /* Sources */,
+				03C24BD3D32F3C436931A4F0DA909347 /* Frameworks */,
+				4B96757E3B01127BD8EBBC500C5B3DC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC21812211BB7F5F33FEB1707CCD8F1A /* PBXTargetDependency */,
+			);
+			name = "Pods-KosignLib_Tests";
+			productName = "Pods-KosignLib_Tests";
+			productReference = 6A32BA92BB808785052FD4D860087250 /* Pods_KosignLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2E2626806A32EAA8D2839B7491B6F83 /* KosignLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D20E1D12F32D1472D800E70A8675C9 /* Build configuration list for PBXNativeTarget "KosignLib" */;
+			buildPhases = (
+				B2584E5FE8915B84A170D3A08724DDD7 /* Sources */,
+				C16237DE07CE14FC4AC8E5F9DCC88BC8 /* Frameworks */,
+				35F13514A7C93AB0F0A23E85B9B871BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KosignLib;
+			productName = KosignLib;
+			productReference = 0E901958F4FCEAD134D7325A4416FBEE /* KosignLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					D2E2626806A32EAA8D2839B7491B6F83 = {
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 81689A8723EDF5C3D2D0008BB27A5DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2E2626806A32EAA8D2839B7491B6F83 /* KosignLib */,
+				9FC5FE5A5E1559F1F4F0FE21F5AC6116 /* Pods-KosignLib_Example */,
+				CEAE2E9402EE7FA50DC640098F99B070 /* Pods-KosignLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306AE5EB0B71A42BEE2A38068508E2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279F758B95C07EDB4F5437B3EB332605 /* Pods-KosignLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BC33EF505EE0E08D250022520323AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A532AE3832264DC0767C2DB59CA8E6CF /* Pods-KosignLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2584E5FE8915B84A170D3A08724DDD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399ED88B2133E6790005A2D3 /* Kosign.swift in Sources */,
+				97C8650D9C7B9ED16CAA2D42D1539B00 /* KosignLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC21812211BB7F5F33FEB1707CCD8F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KosignLib_Example";
+			target = 9FC5FE5A5E1559F1F4F0FE21F5AC6116 /* Pods-KosignLib_Example */;
+			targetProxy = 43D2472B1A4C15082A3A93CA811498E6 /* PBXContainerItemProxy */;
+		};
+		D411A5B54868190AED93F64474554602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KosignLib;
+			target = D2E2626806A32EAA8D2839B7491B6F83 /* KosignLib */;
+			targetProxy = 867D56E8F545B3A1509622388D158B34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21DC9B1D36044E629852EA68C6942945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF0B4F21E80558886454AD7EB054DE7 /* Pods-KosignLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KosignLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KosignLib_Tests/Pods-KosignLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61D0D621AE2F3E46C294863875DF769A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E1ED544637F4742ED260FBF302E7CB /* Pods-KosignLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KosignLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KosignLib_Tests/Pods-KosignLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CBC30F6831A1F91BDD469EE18DE4619F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF7A59269269F0BE0E570E51D8149A8 /* KosignLib.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KosignLib/KosignLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KosignLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KosignLib/KosignLib.modulemap";
+				PRODUCT_MODULE_NAME = KosignLib;
+				PRODUCT_NAME = KosignLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F64AAAD97DC939B958373A484D0D840E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6558E9218447A616387D9B559BE19B2B /* Pods-KosignLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KosignLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KosignLib_Example/Pods-KosignLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF88ABCB44A4BEDF629583AD21998988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F735238FDD9C5F61736D864C6EEBBFF8 /* Pods-KosignLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KosignLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KosignLib_Example/Pods-KosignLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFCA30D16A376F9B513BBCFBB8CA3DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF7A59269269F0BE0E570E51D8149A8 /* KosignLib.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KosignLib/KosignLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KosignLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KosignLib/KosignLib.modulemap";
+				PRODUCT_MODULE_NAME = KosignLib;
+				PRODUCT_NAME = KosignLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D20E1D12F32D1472D800E70A8675C9 /* Build configuration list for PBXNativeTarget "KosignLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC30F6831A1F91BDD469EE18DE4619F /* Debug */,
+				FFCA30D16A376F9B513BBCFBB8CA3DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A2CF9D987E4662D3337CC21127E56EB /* Build configuration list for PBXNativeTarget "Pods-KosignLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D0D621AE2F3E46C294863875DF769A /* Debug */,
+				21DC9B1D36044E629852EA68C6942945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F14BADC7366367E0F4884450C86B6A /* Build configuration list for PBXNativeTarget "Pods-KosignLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF88ABCB44A4BEDF629583AD21998988 /* Debug */,
+				F64AAAD97DC939B958373A484D0D840E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

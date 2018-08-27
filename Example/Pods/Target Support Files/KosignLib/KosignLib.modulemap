@@ -1,0 +1,6 @@
+framework module KosignLib {
+  umbrella header "KosignLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
